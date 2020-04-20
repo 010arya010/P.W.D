@@ -1,0 +1,303 @@
+/*--------common codes--------*/
+
+@font-face{
+    font-family: fa;
+    src: url('../font/fa.otf'),url('../font/fa.eot?#iefix'),url('../font/fa.woff?#iefix');
+}
+
+@font-face{
+    font-family: eng;
+    src: url('../font/eng.otf'),url('../font/eng.eot?#iefix');
+}
+
+@font-face{
+    font-family: dastnvis;
+    src: url('../font/dastnvis.otf'),url('../font/dastnvis.eot?#iefix');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    direction: rtl;
+    font-family: fa;
+    background-color: #1e1e1e;
+    color: #d5d5d5;
+    font-size: 130%;
+    line-height: 200%;
+}
+
+a{
+    color: #d5d5d5;
+    text-decoration: none;
+}
+header{
+    border-bottom: 8px double #af0000;
+    border-radius: 0 0 10% 10%;
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+}
+
+#Logo{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.Menu{
+    display: inline-flex;
+    list-style: none;
+    font-size: 140%;
+}
+
+.Menu li:nth-child(1){
+    margin: 2% 2% 0 0;
+    width: 50%;
+}
+
+.Menu li:nth-child(n+2){
+    margin: 4% 5% 0 5%; 
+}
+
+.Menu li:nth-child(n+2) a{
+    border-bottom: 3px dashed #c722ff;
+    border-radius: 30%;
+    padding: 5%;
+}
+
+.Menu li:nth-child(n+2) a:hover{
+    border-top: 3px dashed #1f6bff;
+    border-bottom: 3px solid #c722ff;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: #000000;
+    font-size: 90%;
+    font-family: dastnvis;
+    margin-top: 20%;
+    font-weight: bold;
+}
+
+#PWD{
+    font-size: 150%;
+    font-family: eng;
+}
+
+#Copyright{
+    text-align: center;
+    padding: 0 1%;
+}
+
+#Instagram{
+    width: 5%;
+    height: auto;
+    margin: 1%;
+}
+
+#Follow{
+    display: inline-flex;
+}
+
+/*--------end common codes--------*/
+
+/*----------index.html codes-------*/
+
+#Banner{
+    background: linear-gradient(#1e1e1e,#d5d5d5,#1e1e1e);
+    margin: 20% auto;
+    width: 85%;
+    padding: 5%;
+    font-size: 120%;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    border-radius: 50%;
+    text-shadow: 10px 10px 7px black;
+    
+}
+
+#Right{
+    width: 30%;
+    display: inline-flex;
+    margin: 5% 6% 10% 0;
+    border: 5px outset #96031a;
+    border-image: linear-gradient(45deg, #c722ff 0%, #1f6bff 100%);
+    border-image-slice: 1;
+    padding: 5%;
+    text-align: center;
+    font-size: 98%;
+    text-decoration: darkred dotted underline;
+}
+
+#Left{
+    width: 30%;
+    display: inline-flex;
+    margin: 5% 6% 10% 0;
+    border: 5px outset #96031a;
+    border-image: linear-gradient(45deg, #c722ff 0%, #1f6bff 100%);
+    border-image-slice: 1;
+    padding: 5%;
+    text-align: center;
+    font-size: 98%;
+    text-decoration: darkred dotted underline;
+}
+
+.Hoverrightleft:hover{
+    background: linear-gradient(45deg, #c722ff 0%, #1f6bff 100%);
+    font-weight: bold;
+    border-image: none !important;
+    border-radius: 5%;
+    color: black;
+    text-decoration: none !important;
+    text-shadow: 5px 5px 5px #d5d5d5;
+}
+
+.Sentence{
+    height: 260px;
+}
+
+/*--------end index.html codes---------*/
+
+/*----------course.html codes-----------*/
+
+.Inline-flex{
+    margin: 5% 5% 5% 5%;
+    background-color: rgba(213,213,213,0.3);
+    border-radius:10px;
+    padding: 1%;
+}
+
+#First-item{
+    margin-top: 20%;
+
+}
+
+.Pic-style{
+    width: 30%;
+    display: block;
+}
+
+.H-style{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.Start{
+    width: 100%;
+    border-radius: 10px;
+    padding: 3%;
+    background-color: #238306;
+}
+
+.Pannel-start{
+    width: 30%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 1% 2% 1%; 
+}
+
+.Start:hover{
+    font-weight: bold;
+    text-shadow: 3px 3px 1px #081f02;
+    box-shadow: 3px 3px 5px 3px #081f02;
+}
+
+/*--------end course.html codes---------*/
+
+/*---------Articles css codes-----------*/
+
+.Article{
+    background-color: rgba(213,213,213,0.8);
+    padding: 3%;
+    border-radius: 10px;
+    margin: 20% 5% 5% 5%;
+    color: black;
+}
+
+/*----------end Articles css codes--------*/
+
+/*--------projectorder.html codes-----------*/ 
+
+.Socialmedia{
+    display: inline-block;
+    width: 45%;
+}
+
+.Socialmediatxt{
+    text-align: center;
+    font-family: dastnvis;
+    font-size: 200%;
+}
+
+#Telwhat{
+    display: block;
+    margin: 2% auto;
+    width: 20%;
+}
+
+#Gmailtxt{
+    text-align: center;
+}
+
+#Gmail{
+    display: block;
+    margin: 1% auto;
+    width: 10%;
+}
+
+/*--------end projectorder.html codes---------*/ 
+
+/*--------aboutus.html codes-------------*/
+
+.Sideright{
+    float: right;
+    margin: 20% 1%;
+    text-align: center;
+}
+
+.Sideleft{
+    float: left;
+    margin: 20% 1%;
+}
+
+td{
+    padding: 2%;
+    text-align: center;
+    white-space: nowrap;
+    word-spacing: 30px;
+    border: 2px solid #d5d5d5;
+    border-radius: 10px;
+}
+
+caption{
+    font-family: dastnvis;
+    font-size: 200%
+}
+
+#Sitemap-h{
+    margin: 10%;
+    white-space: nowrap;
+    font-family: dastnvis;
+}
+
+.Title{
+    color: #1f6bff;
+    margin: 5%;
+}
+
+.Sub-title{
+    color: #c722ff;
+}
+
+.Clear{
+    clear: both;
+}
+/*---------------end aboutus.html codes--------------*/
+/*---------------end main pages coding -------------*/

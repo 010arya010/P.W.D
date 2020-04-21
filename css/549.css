@@ -214,11 +214,58 @@ footer{
 /*---------Articles css codes-----------*/
 
 .Article{
-    background-color: rgba(213,213,213,0.8);
+    background-color: rgba(213,213,213,0.85);
     padding: 3%;
     border-radius: 10px;
     margin: 20% 5% 5% 5%;
     color: black;
+    text-indent: 5%;
+}
+
+h2,h1,h3{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+dt{
+    font-weight: bold;
+    margin: 1%;
+}
+
+Table{
+    margin: 0 auto;
+}
+
+.Table tr td {
+    padding: 10px;
+}
+
+.Ul{
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+.Pannel-move{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-top: 10%;
+}
+
+.Move{
+    padding: 1%;
+    padding-left: 2%;
+    margin: 1%;
+    background-color: #238306;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.Move:hover{
+    font-weight: bold;
+    text-shadow: 3px 3px 1px #081f02;
+    box-shadow: 3px 3px 5px 3px #081f02;
 }
 
 /*----------end Articles css codes--------*/
